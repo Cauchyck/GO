@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+// import "rpc_demo/grpc_test/proto/base.proto";
+// import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+option go_package=".;proto";
+
+
+service Greeter{
+    rpc SayHello(HelloRequest) returns (HelloReply); // hello 接口
+    // rpc Ping(google.protobuf.Empty) returns (Pong);
+}
+
+message HelloRequest {
+    string name =1; // 编号，不是值
+    string url =2;
+    Gender g = 3;
+    map<string, string> mp =4;
+    google.protobuf.Timestamp addTime = 5;
+
+}
+
+message HelloReply {
+    string message = 1;
+    message Result {
+        string name = 1;
+        string url = 2;
+    }
+    repeated Result data =2;
+}
+
+enum Gender{
+    MALE = 0;
+    FEMALE = 1;
+}

@@ -1,0 +1,153 @@
+2024-01-18T15:32:25.048+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T15:32:25.610+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:25.613+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:25.615+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:25.615+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-18T15:32:25.616+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: user-web.yaml, group: user, namespaceId: b6140e28-dea8-47a8-8bd2-e1f4a59173b5.
+2024-01-18T15:32:49.003+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T15:32:49.104+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:49.107+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:49.109+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.yaml","group":"user","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-18T15:32:49.109+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-18T15:32:49.110+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: user-web.yaml, group: user, namespaceId: b6140e28-dea8-47a8-8bd2-e1f4a59173b5.
+2024-01-18T15:34:40.212+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T16:04:56.862+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T16:04:57.366+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldev60b8829571df9931165d7525bd886454b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2024-01-18T16:04:57.448+0800	[34mINFO[0m	config_client/config_client.go:433	[client.ListenConfig] no change
+2024-01-18T16:04:57.459+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldev60b8829571df9931165d7525bd886454b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2024-01-18T16:05:27.051+0800	[34mINFO[0m	config_client/config_client.go:433	[client.ListenConfig] no change
+2024-01-18T16:05:27.062+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldev60b8829571df9931165d7525bd886454b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2024-01-18T16:05:34.379+0800	[34mINFO[0m	config_client/config_client.go:435	[client.ListenConfig] config changed:user-web.yaml%02dev%02b6140e28-dea8-47a8-8bd2-e1f4a59173b5%01
+
+2024-01-18T16:05:34.398+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldevb5e166d425cf556da229363492247fe2b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2024-01-18T16:06:03.907+0800	[34mINFO[0m	config_client/config_client.go:433	[client.ListenConfig] no change
+2024-01-18T16:06:03.919+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldevb5e166d425cf556da229363492247fe2b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2024-01-18T16:06:16.866+0800	[34mINFO[0m	config_client/config_client.go:435	[client.ListenConfig] config changed:user-web.yaml%02dev%02b6140e28-dea8-47a8-8bd2-e1f4a59173b5%01
+
+2024-01-18T16:06:16.888+0800	[34mINFO[0m	config_client/config_proxy.go:180	[client.ListenConfig] request params:map[Listening-Configs:user-web.yamldev60b8829571df9931165d7525bd886454b6140e28-dea8-47a8-8bd2-e1f4a59173b5 tenant:b6140e28-dea8-47a8-8bd2-e1f4a59173b5] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2024-01-18T16:36:08.144+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T16:41:28.257+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T16:41:56.033+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T20:04:52.907+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T20:07:27.274+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T20:08:51.631+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T20:10:10.897+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-18T20:11:10.326+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:18:58.899+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:18:58.960+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:18:58.964+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:18:58.968+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:18:58.968+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-20T20:18:58.969+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods-srv.json, group: dev, namespaceId: b6140e28-dea8-47a8-8bd2-e1f4a59173b5.
+2024-01-20T20:20:14.901+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:25:04.825+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:25:04.893+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:25:04.899+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:25:04.904+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:25:04.904+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-20T20:25:04.904+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods-srv.json, group: dev, namespaceId: b6140e28-dea8-47a8-8bd2-e1f4a59173b5.
+2024-01-20T20:27:09.476+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:27:09.497+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:27:09.504+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:27:09.509+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-srv.json","group":"dev","tenant":"b6140e28-dea8-47a8-8bd2-e1f4a59173b5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-20T20:27:09.509+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-20T20:27:09.509+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods-srv.json, group: dev, namespaceId: b6140e28-dea8-47a8-8bd2-e1f4a59173b5.
+2024-01-20T20:28:10.967+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-20T20:38:55.614+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T13:25:54.978+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T18:48:24.076+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T18:50:31.059+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T18:52:07.752+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T18:55:06.338+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T20:04:51.644+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T21:10:07.454+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T21:17:22.371+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-23T21:50:44.861+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T20:45:31.659+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T20:47:53.666+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T20:48:18.357+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T14:14:47.243+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T21:30:44.424+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T21:32:28.617+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T21:33:09.579+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T21:59:48.800+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T22:01:41.764+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T22:03:04.430+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-26T22:10:16.387+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-28T12:54:32.730+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-28T12:54:32.803+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T12:54:32.805+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T12:54:32.807+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T12:54:32.807+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-28T12:54:32.808+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: 272ec6d9-3ecc-4ac1-8ef1-abe00595480a.
+2024-01-28T13:22:55.753+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-28T13:22:55.836+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T13:22:55.839+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T13:22:55.844+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"272ec6d9-3ecc-4ac1-8ef1-abe00595480a"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-28T13:22:55.844+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-28T13:22:55.845+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: 272ec6d9-3ecc-4ac1-8ef1-abe00595480a.
+2024-01-28T13:23:56.839+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-29T15:36:07.187+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-29T19:24:24.787+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-01T21:04:50.003+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-01T21:10:24.610+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-01T21:13:49.415+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-01T21:15:41.692+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-02T14:00:18.833+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-02T14:01:05.461+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-02-02T14:04:37.335+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
